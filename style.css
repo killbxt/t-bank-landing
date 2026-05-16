@@ -89,3 +89,91 @@ main{
 .widget_container button:hover{
   background: #e7c728;
 }
+
+.box_container{
+  display: flex;
+  max-width: 1200px;
+  width: 1050px ;
+  border-radius: 32px;
+  background: #292929;
+  color: #fff;
+}
+
+.box_wrapper{
+  padding: 20px 30px;
+  display: flex;
+}
+.box_img{
+  display: flex;
+}
+
+.box_info{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.box_info div > p{
+  color: #FFFFFF80;
+}
+.box_info div > button{
+  background-color: #3f3f3f;
+  border-radius: 13px;
+  border: none;
+  padding: 16px;
+  color: #fff;
+}
+
+.cards_container{
+  display: flex;
+  justify-content: center;
+  margin: 0 auto;
+  max-width: 1200px;
+  gap: 32px;
+}
+.card{
+  display: flex;
+  flex-direction: column;
+  gap: 32px;
+  background: #EAECEE;
+  padding: 40px 40px;
+  border-radius: 20px;
+  max-width: 250px;
+}
+
+.info_container > .title {
+  display: flex;
+  flex-direction: column;
+  font-size: 20px;
+  color: #000c;
+}
+
+.card-night{
+  display: flex;
+  flex-direction: column;
+  gap: 32px;
+  background: #333333;
+  padding: 40px 40px;
+  border-radius: 20px;
+  color: #fff;
+  max-width: 250px;
+}
+ 
+.addition_container{
+  display: flex;
+  max-width: 1200px;
+  width: 1050px;
+  margin: 0 auto;
+  justify-content: center;
+  margin-bottom: 64px;
+  gap: 64px;
+}
+
+.addition_card{
+  display: flex;
+  flex-direction: column;
+  background: #fff;  
+  padding: 32px 32px;
+  width: 500px;
+  border-radius: 20px;
+  justify-content: space-between;
+}
